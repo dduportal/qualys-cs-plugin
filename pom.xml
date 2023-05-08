@@ -39,7 +39,7 @@
             <failOnError>${maven.findbugs.failure.strict}</failOnError>
           </configuration>
         </plugin>
-	    
+
 	 <plugin>
 	     <groupId>com.github.spotbugs</groupId>
 	     <artifactId>spotbugs-maven-plugin</artifactId>
@@ -115,7 +115,7 @@
    <dependency>
 		<groupId>com.qualys</groupId>
         <artifactId>cs-plugin-common</artifactId>
-        <version>1.2.4</version>
+        <version>1.2.3</version>
 	</dependency>
   <dependency>
 		<groupId>org.scala-sbt.ipcsocket</groupId>
