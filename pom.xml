@@ -83,15 +83,16 @@
   </licenses>
 
   <repositories>
+      <repository>
+          <id>in-project</id>
+          <name>In Project Repo</name>
+          <url>file://${project.basedir}/lib</url>
+      </repository>
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
-	<repository>
-    	<id>in-project</id>
-    	<name>In Project Repo</name>
-    	<url>file://${project.basedir}/lib</url>
-	</repository>
+
   </repositories>
   <pluginRepositories>
     <pluginRepository>
